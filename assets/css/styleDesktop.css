@@ -84,7 +84,6 @@ button {
 .circle > img {
   border-radius: 250px;
   width: 450px;
-  padding-top: 2.5em;
 }
 
 .circle,
@@ -95,9 +94,6 @@ button {
 .rightArticles {
   font-size: 0.8em;
   text-align: left;
-  padding-bottom: 2.5em;
-}
-.rightArticles p {
   margin-left: 0;
 }
 
