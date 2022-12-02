@@ -1,0 +1,127 @@
+/*general*/
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.65em;
+  text-decoration: color #393d41;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: rgb(0, 153, 255);
+  font-style: bold;
+  line-height: 1.5em;
+  margin-bottom: 0em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 1em;
+}
+
+/*header*/
+
+header {
+  background-color: black;
+  width: 100%;
+}
+
+header > img {
+  width: 175px;
+  margin: 10%;
+}
+
+/*main*/
+
+main {
+  width: 100%;
+}
+
+.div1 {
+  font-size: 1.1em;
+  height: 400px;
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.div1 > h1 {
+  font-size: 2em;
+}
+
+button {
+  background-color: #f04c2f;
+  border-radius: 5px;
+  color: white;
+  width: 10em;
+  height: 2.5em;
+  font-size: 1em;
+  margin-top: 2em;
+  border: none;
+}
+
+.circle > img {
+  border-radius: 250px;
+  width: 300px;
+  margin-bottom: 1em;
+}
+
+/*perché non risponde?*/
+.divOrange {
+  color: white;
+  background-color: #f04c2f;
+  font-style: italic;
+  padding-top: 2em;
+}
+
+.divOrange > h2 {
+  font-style: bold;
+  color: white;
+}
+
+.divOrange .divFooter {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.divBorder {
+  width: 90vw;
+  margin: 0px auto;
+  margin-bottom: 1em;
+  border: solid 1px lightgrey;
+}
+
+.divBorder img {
+  max-width: 100%;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  color: white;
+  background-color: #25a2c3;
+}
+
+footer > h2 {
+  color: white;
+  margin-bottom: 1em;
+}
+
+footer > div > p {
+  margin: 0px;
+}
+
+footer a {
+  color: white;
+}
