@@ -103,8 +103,9 @@ button {
   border: solid 1px lightgrey;
 }
 
-.divBorder img {
-  max-width: 100%;
+.img {
+  height: 240px;
+  width: 400px;
 }
 
 /* footer */
