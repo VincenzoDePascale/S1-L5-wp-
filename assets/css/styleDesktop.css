@@ -26,6 +26,10 @@ h2 {
   font-size: 1.5em;
 }
 
+button {
+  cursor: pointer;
+}
+
 p {
   margin: 1em;
 }
@@ -110,6 +114,8 @@ button {
 }
 
 .divFooter {
+  font-size: 0.8em;
+  line-height: normal;
   padding-top: 1em;
   padding-bottom: 1em;
   margin: 0px;
@@ -117,10 +123,6 @@ button {
 
 #italic {
   text-decoration: italic;
-}
-
-.divOrange .divFooter {
-  font-size: 0.8em;
 }
 
 .divimg {
@@ -163,6 +165,7 @@ footer > div > p {
 
 footer a {
   color: white;
+  text-decoration: none;
 }
 
 footer hr {

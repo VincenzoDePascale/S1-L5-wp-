@@ -25,8 +25,8 @@ h2 {
   font-size: 1.5em;
 }
 
-p {
-  margin: 1em;
+button {
+  cursor: pointer;
 }
 
 /*header*/
@@ -48,6 +48,7 @@ main {
 }
 
 .div1 {
+  padding: 5%;
   font-size: 1.3em;
   height: 400px;
   background-image: url(../images/banner.jpg);
@@ -66,13 +67,22 @@ button {
   width: 10em;
   height: 2.5em;
   font-size: 1em;
-  margin-top: 2em;
+  margin-top: 1em;
   border: none;
+}
+
+.adds {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-right: 2.5vw;
+  margin-bottom: 0.5em;
+  margin-left: 2.5vw;
 }
 
 .circle > img {
   border-radius: 250px;
   width: 300px;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -80,7 +90,9 @@ button {
   color: white;
   background-color: #f04c2f;
   padding-top: 1em;
-  margin-bottom: 1em;
+  padding-right: 2.5vw;
+  padding-bottom: 1em;
+  padding-left: 2.5vw;
 }
 
 .divOrange > h1 {
@@ -92,8 +104,10 @@ button {
   text-decoration: italic;
 }
 
-.divOrange .divFooter {
-  font-size: 0.8em;
+.divFooter {
+  margin-top: 1em;
+  font-size: 0.7em;
+  line-height: normal;
 }
 
 .divBorder {
@@ -127,6 +141,7 @@ footer > div > p {
 
 footer a {
   color: white;
+  text-decoration: none;
 }
 
 footer hr {
