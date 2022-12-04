@@ -93,6 +93,8 @@ button {
 .circle,
 .rightArticles {
   display: inline-block;
+  text-align: center;
+  width: 40vw;
 }
 
 .rightArticles {
@@ -109,6 +111,7 @@ button {
 }
 
 .divOrange > h1 {
+  padding-top: 0em;
   text-decoration: none;
   color: white;
 }
@@ -117,7 +120,7 @@ button {
   font-size: 0.8em;
   line-height: normal;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   margin: 0px;
 }
 
@@ -131,7 +134,7 @@ button {
 
 .img {
   height: 240px;
-  width: 400px;
+  width: 341px;
 }
 
 .divBorder {
@@ -171,4 +174,9 @@ footer a {
 footer hr {
   width: 50%;
   border: 1px solid white;
+}
+
+footer .end {
+  margin: 0;
+  padding-bottom: 1em;
 }

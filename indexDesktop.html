@@ -38,6 +38,9 @@
           </p>
           <button type="submit">PARTIAMO!</button>
         </div>
+        <!--
+          non sono riuscito a risolvere l'allineamento dei due div "circle" e "rightarticles"
+        -->
         <div class="block2">
           <div class="circle">
             <img src="./assets/images/notebook.jpg" alt="notebook" />
@@ -73,7 +76,7 @@
         </div>
         <div class="divOrange">
           <h1>Epicode garantisce</h1>
-          <p>
+          <p id="italic">
             "3 mesi intensivi di corso che cambieranno eadicalmente la tua vita"
           </p>
           <p class="divFooter">
@@ -108,14 +111,24 @@
             </p>
           </div>
         </div>
-
+        <!--
+          senza il br nell'ultimo p il layout si modifica in maniera anomala
+          modificando l'allineamento dei divBorder quando si passa dalla risoluzione
+          di 1366px a quella di 1920px. Questo problema è dato dal fatto che l'ultimo
+          p di questo div è più breve e si divide in sole due righe rispetto agli altri p
+          dei due div precedenti che a risoluzioni inferiori di dividono su tre righe.
+          Questa problematica andrebbe risolta con flexbox?
+        -->
         <div class="divBorder">
           <div class="divimg">
             <img class="img" src="./assets/images/foto3.jpg" alt="foto3" />
           </div>
           <div>
             <h2>Lavora subito</h2>
-            <p>Sappiamo cosa vogliono le aziende, perchélavoriamo con loro.</p>
+            <p>
+              Sappiamo cosa vogliono <br />
+              le aziende, perché lavoriamo con loro.
+            </p>
           </div>
         </div>
       </div>
@@ -137,7 +150,7 @@
         </p>
       </div>
       <hr />
-      <p>&copy; 2021. Immagini di <a href="#">Pixabay</a>.</p>
+      <p class="end">&copy; 2021. Immagini di <a href="#">Pixabay</a>.</p>
     </footer>
   </body>
 </html>
